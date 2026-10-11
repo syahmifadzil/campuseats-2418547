@@ -1,15 +1,12 @@
 import React from "react";
 
-function VendorCard() {
-  const vendor = {
-    name: "Kafe Mahallah Ali",
-    location: "Mahallah Ali, Block C",
-    openHours: "Open: 7:00 am - 10:00 pm",
-    isOpen: true,
-  };
-
+function VendorCard({ vendor, isSelected, onSelect }) {
   return (
-    <div className="card vendor-card">
+    <button 
+      type="button" 
+      className={`card vendor-card ${isSelected ? "selected" : ""}`}
+      onClick={() => onSelect(vendor.id)}
+    >
       <div className="thumb">
         {vendor.name.charAt(0)}
       </div>
@@ -23,7 +20,7 @@ function VendorCard() {
           {vendor.isOpen ? "Open now" : "Closed"}
         </span>
       </div>
-    </div>
+    </button>
   );
 }
 
