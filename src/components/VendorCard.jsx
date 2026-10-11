@@ -1,24 +1,23 @@
-
 import React from "react";
 
 function VendorCard() {
   const vendor = {
-    name: "Mahallah Cafe",
-    location: "Your Mahallah, IIUM Gombak",
-    openHours: "8:00 AM - 10:00 PM",
+    name: "Kafe Mahallah Ali",
+    location: "Mahallah Ali, Block C",
+    openHours: "Open: 7:00 am - 10:00 pm",
     isOpen: true,
   };
 
   return (
-    <div className="vendor-card">
+    <div className="card vendor-card">
       <div className="thumb">
         {vendor.name.charAt(0)}
       </div>
 
       <div className="vendor-info">
-        <h2>{vendor.name}</h2>
-        <p>{vendor.location}</p>
-        <p>{vendor.openHours}</p>
+        <h3>{vendor.name}</h3>
+        <p className="muted">{vendor.location}</p>
+        <p className="muted">{vendor.openHours}</p>
 
         <span className={vendor.isOpen ? "status open" : "status closed"}>
           {vendor.isOpen ? "Open now" : "Closed"}
