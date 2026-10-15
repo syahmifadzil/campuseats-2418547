@@ -154,3 +154,11 @@ a.card:hover { border-color: var(--green-light); }
   .nav { flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.95rem; }
   .container { padding: 1rem; }
 }
+
+.note-btn {
+  margin-bottom: 12px;
+}
+
+.cart-btn {
+  margin-top: 12px;
+}

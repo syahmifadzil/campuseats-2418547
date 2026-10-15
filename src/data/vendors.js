@@ -58,8 +58,8 @@ const vendors = [
       },
       {
         id: 'ali-7',
-        name: 'Teh Tarik',
-        description: 'Traditional pulled milk tea',
+        name: 'Kopi ais',
+        description: 'Iced coffee',
         price: 2.5,
         category: 'Drinks',
         available: true
