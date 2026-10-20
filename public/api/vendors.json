@@ -1,0 +1,76 @@
+
+[
+  {
+    "id": "2418547-kafe-boost",
+    "name": "Boost Juice",
+    "location": "IIUM Gombak, Student Mall",
+    "openHours": "10:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      {
+        "id": "2418547-boost-1",
+        "name": "All Berry Bang",
+        "description": "A refreshing blend of mixed berries and apple juice",
+        "price": 12.9,
+        "category": "Fruit Smoothies",
+        "available": true
+      },
+      {
+        "id": "2418547-boost-2",
+        "name": "Mango Magic",
+        "description": "A tropical blend of mango, banana and yoghurt",
+        "price": 12.9,
+        "category": "Fruit Smoothies",
+        "available": true
+      },
+      {
+        "id": "2418547-boost-3",
+        "name": "Strawberry Squeeze",
+        "description": "A sweet strawberry smoothie blended with apple juice",
+        "price": 12.9,
+        "category": "Fruit Smoothies",
+        "available": true
+      },
+      {
+        "id": "2418547-boost-4",
+        "name": "Banana Buzz",
+        "description": "A creamy banana smoothie with honey and yoghurt",
+        "price": 12.9,
+        "category": "Fruit Smoothies",
+        "available": true
+      },
+      {
+        "id": "2418547-boost-5",
+        "name": "Watermelon Crush",
+        "description": "A refreshing watermelon and apple juice blend",
+        "price": 12.9,
+        "category": "Fruit Crushes",
+        "available": true
+      },
+      {
+        "id": "2418547-boost-6",
+        "name": "Mango Tango",
+        "description": "A tropical mango drink with a refreshing fruity taste",
+        "price": 12.9,
+        "category": "Fruit Crushes",
+        "available": true
+      },
+      {
+        "id": "2418547-boost-7",
+        "name": "Passion Mango",
+        "description": "A tropical passion fruit and mango blend",
+        "price": 12.9,
+        "category": "Fruit Crushes",
+        "available": true
+      },
+      {
+        "id": "2418547-boost-8",
+        "name": "King William Chocolate",
+        "description": "A rich chocolate smoothie with a creamy taste",
+        "price": 13.9,
+        "category": "Special Blends",
+        "available": true
+      }
+    ]
+  }
+]
