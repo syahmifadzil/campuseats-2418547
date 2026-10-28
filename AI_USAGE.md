@@ -14,3 +14,15 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - What I asked for:Relationship between App.jsx and vendors.js
 - What I kept, changed or rejected, and why:
 - One thing the AI got wrong and how I fixed it:
+
+## Week 3
+- Tool(s):Chatgpt
+- What I asked for: Where to put the required code from the slide into the current code
+- What I kept, changed or rejected, and why:
+- One thing the AI got wrong and how I fixed it:
+
+## Week 4
+- Tool(s):Chatgpt
+- What I asked for: Where to put the required code from the slide into App.jsx
+- What I kept, changed or rejected, and why:
+- One thing the AI got wrong and how I fixed it:
