@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import Header from "./components/Header";
 import VendorCard from "./components/VendorCard";
@@ -242,6 +241,19 @@ const handlePlaceOrder = (details) => {
       <Footer />
     </>
   );
-}
 
+  <BrowserRouter>
+ <CartProvider>
+ <Routes>
+ <Route element={<Layout />}>
+ <Route index element={<HomePage />} />
+ <Route path="vendor/:id" element={<VendorPage />} />
+ <Route path="cart" element={<CartPage />} />
+ <Route path="orders" element={<OrdersPage />} />
+ <Route path="*" element={<NotFoundPage />} />
+ </Route>
+ </Routes>
+ </CartProvider>
+</BrowserRouter>
+}
 export default App;
