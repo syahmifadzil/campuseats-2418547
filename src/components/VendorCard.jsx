@@ -1,27 +1,28 @@
-import React from "react";
+import { Link } from 'react-router'
 
-function VendorCard({ vendor, isSelected, onSelect }) {
+function VendorCard({ vendor }) {
   return (
-    <button 
-      type="button" 
-      className={`card vendor-card ${isSelected ? "selected" : ""}`}
-      onClick={() => onSelect(vendor.id)}
-    >
+    <article className="card vendor-card">
       <div className="thumb">
         {vendor.name.charAt(0)}
       </div>
 
       <div className="vendor-info">
         <h3>{vendor.name}</h3>
+
         <p className="muted">{vendor.location}</p>
         <p className="muted">{vendor.openHours}</p>
 
-        <span className={vendor.isOpen ? "status open" : "status closed"}>
-          {vendor.isOpen ? "Open now" : "Closed"}
+        <span className={vendor.isOpen ? 'status open' : 'status closed'}>
+          {vendor.isOpen ? 'Open now' : 'Closed'}
         </span>
+
+        <Link to={`/vendor/${vendor.id}`}>
+          View Menu
+        </Link>
       </div>
-    </button>
-  );
+    </article>
+  )
 }
 
-export default VendorCard;
+export default VendorCard
