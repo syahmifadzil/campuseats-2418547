@@ -39,7 +39,7 @@ function MenuItemCard({ item, onAdd }) {
         <textarea
           value={note}
           onChange={(e) => setNote(e.target.value)}
-          placeholder="E.g. No spicy sauce, less sugar..."
+          placeholder="E.g. less ice, less sugar..."
           rows={3}
         />
       )}
